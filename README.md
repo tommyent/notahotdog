@@ -19,11 +19,12 @@
 
 Click a picture to see it full size.
 
-<table>
+<p align="center"><a href="docs/shelf.png"><img src="docs/shelf.png" width="532" alt="The Shelf: hidden menu bar icons in one row under the menu bar."></a><br><b>Shelf</b> puts icons in a row below the menu bar.</p>
+
+<table align="center">
   <tr>
-    <td width="33%" valign="top"><a href="docs/shelf.png"><img src="docs/screenshots/thumbs/shelf.jpg" alt="A row of hidden menu bar icons in Shelf" width="100%"></a><br><b>Shelf</b> puts icons in a row below the menu bar.</td>
-    <td width="33%" valign="top"><a href="docs/tray.png"><img src="docs/screenshots/thumbs/tray.jpg" alt="Hidden menu bar icons in a compact Tray grid" width="100%"></a><br><b>Tray</b> keeps icons in a compact grid.</td>
-    <td width="33%" valign="top"><a href="docs/index.png"><img src="docs/screenshots/thumbs/index.jpg" alt="Hidden menu bar icons listed with their app names in Index" width="100%"></a><br><b>Index</b> lists icons with app names.</td>
+    <td width="50%" align="center" valign="top"><a href="docs/tray.png"><img src="docs/tray.png" width="165" alt="The Tray: hidden menu bar icons in a small grid."></a><br><b>Tray</b> keeps icons in a compact grid.</td>
+    <td width="50%" align="center" valign="top"><a href="docs/index.png"><img src="docs/index.png" width="233" alt="The Index: hidden menu bar icons listed with their app names."></a><br><b>Index</b> lists icons with app names.</td>
   </tr>
 </table>
 
