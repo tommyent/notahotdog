@@ -1,0 +1,28 @@
+{
+  "fill": {
+    "solid": "srgb:0.12,0.13,0.15,1"
+  },
+  "groups": [
+    {
+      "layers": [
+        {
+          "image-name": "MoonMallow.png",
+          "name": "Moon Mallow",
+          "glass": false
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0
+      },
+      "specular": false,
+      "translucency": {
+        "enabled": false,
+        "value": 0
+      }
+    }
+  ],
+  "supported-platforms": {
+    "squares": "shared"
+  }
+}

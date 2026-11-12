@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Not A Hot Dog</title>
+<meta name="description" content="Hides the menu bar icons you don't need to see. Click the hot dog to get them back.">
+<meta property="og:title" content="Not A Hot Dog">
+<meta property="og:description" content="Hides the menu bar icons you don't need to see. Click the hot dog to get them back.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tommyent.github.io/notahotdog/">
+<meta property="og:image" content="https://tommyent.github.io/notahotdog/social.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="preload" href="barrio.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+  /* Barrio by Omnibus-Type, SIL Open Font License 1.1: Barrio-OFL.txt */
+  @font-face { font-family: "Barrio"; src: url(barrio.woff2) format("woff2"); font-display: swap; }
+  :root { --bg: #f3efe6; --ink: #1d1b18; --soft: #6b655c; color-scheme: light dark; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #16171a; --ink: #f1ede4; --soft: #9a948a; } }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    background: var(--bg); color: var(--ink);
+    font: 400 22px/1.45 "Barrio", cursive;
+    min-height: 100vh; display: grid; place-items: center; padding: 64px 16px;
+  }
+  main { width: 100%; max-width: 760px; text-align: center; }
+  h1 {
+    font-size: clamp(34px, 10vw, 88px); font-weight: 400; line-height: 1; white-space: nowrap;
+    display: flex; align-items: center; justify-content: center; gap: .22em;
+  }
+  h1 img { height: .95em; width: auto; }
+  .tagline { margin: 28px auto 48px; max-width: 24em; font-size: 24px; color: var(--soft); text-wrap: balance; }
+  .shots { display: grid; gap: 28px; justify-items: center; }
+  .pair { display: flex; gap: 28px; align-items: flex-start; justify-content: center; flex-wrap: wrap; }
+  figure { display: grid; gap: 10px; justify-items: center; }
+  figure img { display: block; max-width: 100%; height: auto; }
+  figcaption { font-size: 20px; letter-spacing: .04em; color: var(--soft); }
+  .get { margin-top: 56px; display: grid; gap: 10px; justify-items: center; }
+  .get a {
+    color: var(--bg); background: var(--ink); text-decoration: none;
+    padding: 12px 28px; border-radius: 999px; font-size: 24px;
+  }
+  .get a:focus-visible { outline: 3px solid var(--soft); outline-offset: 3px; }
+  .get small { color: var(--soft); font-size: 20px; }
+  .get small a { all: unset; cursor: pointer; text-decoration: underline; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Not A Hot Dog <img src="icon.png" width="256" height="256" alt=""></h1>
+
+  <p class="tagline">Hides the menu bar icons you don't need to see. Click the hot dog to get them back.</p>
+
+  <div class="shots">
+    <figure>
+      <img src="shelf.png" width="532" height="36" alt="The Shelf: hidden menu bar icons in one row under the menu bar.">
+      <figcaption>Shelf</figcaption>
+    </figure>
+    <div class="pair">
+      <figure>
+        <img src="tray.png" width="165" height="210" alt="The Tray: hidden menu bar icons in a small grid.">
+        <figcaption>Tray</figcaption>
+      </figure>
+      <figure>
+        <img src="index.png" width="233" height="516" alt="The Index: hidden menu bar icons in a list with each app's name.">
+        <figcaption>Index</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <div class="get">
+    <a href="https://github.com/tommyent/notahotdog/releases/latest">Download for Mac</a>
+    <small>macOS 27.3 or later (in beta as of November 2026) · Free and open source · <a href="https://github.com/tommyent/notahotdog">GitHub</a></small>
+  </div>
+</main>
+</body>
+</html>

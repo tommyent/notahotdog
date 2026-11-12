@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleExecutable</key>
+    <string>NotAHotDog</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.tommyent.notahotdog</string>
+    <key>CFBundleName</key>
+    <string>Not A Hot Dog</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>27.3</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSHumanReadableCopyright</key>
+    <string>© 2026 tommyent. MIT License.</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSScreenCaptureUsageDescription</key>
+    <string>Not A Hot Dog photographs hidden menu bar extras so it can show them in the drop-down.</string>
+    <key>SUFeedURL</key>
+    <string>https://tommyent.github.io/notahotdog/appcast.xml</string>
+    <key>SUPublicEDKey</key>
+    <string>s/+yDKkk9U9vdGWNaMBcSSD79M94XlgJXQOQSrByESw=</string>
+</dict>
+</plist>
